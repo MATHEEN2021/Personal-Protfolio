@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Languages Proficiency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .language {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Known Languages and Proficiency</h1>
+
+    <form>
+        <div class="language">
+            <label for="language1">Language 1:</label>
+            <input type="text" id="language1" name="language1" required>
+            <label>Proficiency:</label>
+            <label>
+                <input type="checkbox" name="read1" value="read" checked> Read
+            </label>
+            <label>
+                <input type="checkbox" name="write1" value="write"> Write
+            </label>
+            <label>
+                <input type="checkbox" name="both1" value="both"> Both
+            </label>
+        </div>
+
+        <div class="language">
+            <label for="language2">Language 2:</label>
+            <input type="text" id="language2" name="language2">
+            <label>Proficiency:</label>
+            <label>
+                <input type="checkbox" name="read2" value="read" checked> Read
+            </label>
+            <label>
+                <input type="checkbox" name="write2" value="write"> Write
+            </label>
+            <label>
+                <input type="checkbox" name="both2" value="both"> Both
+            </label>
+        </div>
+
+        <!-- Add more language entries here -->
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
